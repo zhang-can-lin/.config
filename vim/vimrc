@@ -1,0 +1,116 @@
+set encoding=utf-8
+set nu
+set rnu
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set ruler
+set autoindent
+set smartindent
+set bs=indent,eol,start
+set laststatus=2
+set history=50
+set showcmd
+set incsearch
+set hlsearch
+" let mapleader=','
+
+" au Filetype lisp set shiftwidth=2
+
+
+filetype on
+syntax on
+filetype plugin on
+
+
+set nocompatible
+set nowrap
+set noshowmode
+set nobackup
+set noundofile
+set noswapfile
+set noerrorbells
+
+" set showtabline=2
+set foldmethod=indent
+set foldlevel=99999999999999999999999999
+set foldclose=all "自动关闭折叠"
+nnoremap <space> @=((foldclosed(line('.')) < 0)? 'zc': 'zo')<CR>
+
+
+"高亮显示当前行和列
+"set cursorcolumn
+"highlight CursorColumn cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
+
+
+set cursorline
+highlight CursorLine cterm=NONE ctermbg=black   ctermfg=NONE guibg=NONE guifg=NONE
+
+" 多窗口的情况下移动
+nnoremap <C-h> <C-W>h
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+nnoremap <C-l> <C-W>l
+"inoremap jk <ESC>
+nnoremap <tab> <C-W>w
+
+" 调整窗口大小
+nnoremap J <C-w>-
+nnoremap K <C-w>+
+nnoremap H <C-w><
+nnoremap L <C-w>>
+
+
+
+if exists('$TMUX')
+    set term=screen-256color
+endif
+
+"模式切换时改变光标式样
+" if empty($TMUX)
+"   let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"   let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+"   let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+" else
+"   let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+"   let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+"   let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+" endif
+
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-scripts/taglist.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/a.vim'
+Plug 'tpope/vim-surround'
+Plug 'junegunn/vim-easy-align'
+Plug 'itchyny/lightline.vim'
+Plug 'jeetsukumaran/vim-buffergator'
+Plug '907th/vim-auto-save'
+Plug 'jiangmiao/auto-pairs'
+Plug 'luochen1990/rainbow'
+Plug 'scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
+Plug 'kien/ctrlp.vim'
+Plug 'yianwillis/vimcdoc'
+Plug 'tpope/vim-fugitive'
+Plug 'Chiel92/vim-autoformat'
+call plug#end()
+
+set tags+=/usr/local/include/tags
+" rainbow设置
+let g:rainbow_active=1
+
+
+" 加载插件的设置
+let g:config_dir = '~/.config/vim/plugin_setting'
+for config_file in split(globpath(g:config_dir, '*.vim'), '\n')
+    silent exe 'source' config_file
+endfor
+
+let g:formatdef_my_cpp = '"astyle --style=linux"'
+let g:formatters_cpp = ['my_cpp']
+au BufWrite * :Autoformat

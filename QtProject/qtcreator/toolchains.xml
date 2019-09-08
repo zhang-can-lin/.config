@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorToolChains>
+<!-- Written by QtCreator 4.4.1, 2019-07-16T22:09:55. -->
+<qtcreator>
+ <data>
+  <variable>ToolChain.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/g++</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-64bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (C++, x86 64bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{1571140e-5940-4e97-8873-267eedd88177}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">Cxx</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.1</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/g++</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-32bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (C++, x86 32bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{5ad28e3f-01f6-4f30-89ad-595cdb43a7fb}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">Cxx</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.2</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/gcc</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-64bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (C, x86 64bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{e9ee4bbf-e309-42d7-a76e-74a399a755b8}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">C</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.3</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/gcc</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-32bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (C, x86 32bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{60ec1b69-1b50-428b-8c6f-2867c432aa36}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">C</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.4</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/clang++</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-64bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">Clang (C++, x86 64bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Clang:{0f012719-c407-4d75-9ae6-ea45f2367f40}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">Cxx</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.5</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/clang++</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-32bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">Clang (C++, x86 32bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Clang:{8f692946-dde3-4ceb-8bca-1ee631459a62}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">Cxx</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.6</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/clang</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-64bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">Clang (C, x86 64bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Clang:{48c6a386-ac2e-41ef-8e10-5989be58733f}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">C</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.7</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-apple-darwin18.6.0</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/clang</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-darwin-generic-mach_o-64bit</value>
+    <value type="QString">x86-darwin-generic-mach_o-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-darwin-generic-mach_o-32bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">Clang (C, x86 32bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Clang:{791bb8ea-bdf7-4514-a251-e536263802bf}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.LanguageV2">C</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.Count</variable>
+  <value type="int">8</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>
