@@ -94,10 +94,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'luochen1990/rainbow'
 Plug 'scrooloose/nerdtree'
 Plug 'Valloric/YouCompleteMe'
-Plug 'kien/ctrlp.vim'
 Plug 'yianwillis/vimcdoc'
-Plug 'tpope/vim-fugitive'
-Plug 'Chiel92/vim-autoformat'
 call plug#end()
 
 set tags+=/usr/local/include/tags

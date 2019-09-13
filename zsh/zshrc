@@ -90,7 +90,7 @@ export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 
-SHELL_CONFIG=${HOME}/.dotfile/zsh/config
+SHELL_CONFIG=${HOME}/.config/zsh/config
 
 for fc in $(ls ${SHELL_CONFIG}/*.sh)
 do
